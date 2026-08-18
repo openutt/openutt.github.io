@@ -1,5 +1,6 @@
 +++
-date = '2026-08-15T22:02:14-07:00'
+date = '2026-06-15'
+lastmod = '2026-06-16'
 draft = false
 title = 'Licencias Open Source'
 description = 'Lista de licencias open source y guía para elegir la adecuada para tu proyecto.'

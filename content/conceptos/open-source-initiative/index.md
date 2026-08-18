@@ -1,22 +1,13 @@
 +++
-date = '2026-08-15T22:19:02-07:00'
+date = '2026-06-02'
+lastmod = '2026-06-16'
 draft = false
 title = '¿Qué es la Open Source Initiative?'
 +++
 
 {{< alert "edit" >}}
 Información recuperada de [Open Source Iniciative](https://opensource.org/)
-
-En esta página se entiende que:
- 
-**Open Source = Código abierto**
-
-**OS = Open Source**
-
-**OSI = Open Source Initiative**
-
 {{< /alert >}}
-
 
 La **Open Source Initiative** (_OSI_) es una organización pública de California, la cual son los encargados de definir _¿qué es el Open Source?_
 

@@ -7,7 +7,7 @@ title = "Open UTT"
 copyright = ":copyright: Open UTT Iniciative y colaboradores"
 
 [params]
-  dateFormat = "2 de enero de 2006"
+  dateFormat = ":date_long"
 
   # mainSections = ["section1", "section2"]
   description = "Iniciativa para traer el Open Source a UTT"

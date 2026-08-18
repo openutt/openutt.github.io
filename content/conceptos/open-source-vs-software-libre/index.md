@@ -1,5 +1,6 @@
 +++
-date = '2026-08-15T22:19:37-07:00'
+date = '2026-05-18'
+lastmod = '2026-06-10'
 draft = false
 title = 'Open Source vs Software Libre'
 +++

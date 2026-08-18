@@ -1,5 +1,6 @@
 +++
-date = '2026-08-16T21:43:44-07:00'
+date = '2026-05-27'
+lastmod = '2026-08-18'
 draft = false
 title = 'Descripción de Propuesta'
 description = 'Proyectos, conocimiento y continuidad para la comunidad de TI de la UTT.'

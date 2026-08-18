@@ -1,5 +1,6 @@
 +++
-date = '2026-08-15T22:18:53-07:00'
+date = '2026-06-15'
+lastmod = '2026-06-15'
 draft = false
 title = 'Concepto oficial de Open Source'
 +++
