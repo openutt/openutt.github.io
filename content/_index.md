@@ -12,3 +12,5 @@ El detalle completo — problema, justificación, filosofía (misión, visión, 
 {{< wide-image src="images/LogoUTTBackground-largo.webp" alt="Logo OpenUTT" >}}
 
 ---
+
+{{< pinned path="propuesta" title="Propuesta">}}
