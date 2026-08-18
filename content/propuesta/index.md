@@ -33,15 +33,15 @@ Con *OpenUTT* se busca que los proyectos cuatrimestrales, cuando se abandonen, *
 3. **Dejarlo como tarea** para implementar un tema que se está viendo.
 4. **Estudiarlo y aprender** de él.
 
-Y esto no solo podría ocurrir entre generaciones, también **entre las áreas de TI**. Un mismo proyecto puede viajar por las tres:
+Y esto no solo podría ocurrir entre generaciones, también **entre las áreas de TI**. Un mismo proyecto puede viajar por las tres:
 
-1. **Desarrollo** lo crea como su proyecto.
-2. **Redes** lo retoma y le monta la infraestructura y la seguridad.
-3. **Entornos** le da identidad: marca, diseño y marketing digital.
+1. **Desarrollo** lo crea como su proyecto.
+2. **Redes** lo retoma y le monta la infraestructura y la seguridad.
+3. **Entornos** le da identidad: marca, diseño y marketing digital.
 
-Cada área trabaja como **proyecto separado**, sin necesidad de que los **equipos coincidan en el tiempo ni se coordinen** — pueden ser cuatrimestres distintos, o incluso retomar un proyecto de cuatrimestres anteriores. Así, un proyecto de software se convierte en un **producto completo**, y cada área practica lo suyo **sobre algo real**.
+Cada área trabaja como **proyecto separado**, sin necesidad de que los **equipos coincidan en el tiempo ni se coordinen** — pueden ser cuatrimestres distintos, o incluso retomar un proyecto de cuatrimestres anteriores. Así, un proyecto de software se convierte en un **producto completo**, y cada área practica lo suyo **sobre algo real**.
 
-*¿Y cómo lograremos esto?* Pues **no necesitamos inventar una estrategia desde cero**, porque ya existe una: **la *Open Source Initiative***. Esta comunidad existe desde 1998, con el objetivo de establecer estándares, educar y defender el código abierto y sus beneficios. *¿Quiénes son parte de este ecosistema?* **Todos**: desde Google, Microsoft, Meta, OpenAI y el MIT, hasta la Unión Europea y personas que hacen proyectos abiertos por hobby.
+*¿Y cómo lograremos esto?* Pues **no necesitamos inventar una estrategia desde cero**, porque ya existe una: la ***[Open Source Initiative](/conceptos/open-source-initiative)***. Esta comunidad existe desde 1998, con el objetivo de establecer estándares, educar y defender el código abierto y sus beneficios. *¿Quiénes son parte de este ecosistema?* **Todos**: desde Google, Microsoft, Meta, OpenAI y el MIT, hasta la Unión Europea y personas que hacen proyectos abiertos por hobby.
 
 Con este gran ecosistema — respaldado por millones de personas, organizaciones públicas y privadas, y hasta gobiernos —, lo que necesitamos es **traer ese ecosistema dentro de la universidad**, combinándolo con nuestro sistema **70% práctico y 30% teórico**.
 
@@ -54,15 +54,17 @@ Esta propuesta **no** busca que **el Open Source sea una *materia*, sino una *me
 Una primera preocupación puede ser **lo legal**: *¿El proyecto a quien le pertenece?, ¿Le pertenece a UTT o al alumno/equipo?, Al ser open source, ¿renuncia a su autoría?*
 
 - **Quien escribe el código es el autor**. Es la regla legal, incluso aunque no haya alguna licencia o registro ante autoridades.
-- **La autoría no se transfiere.** Publicar con licencia open source otorga _permisos_ de uso como cualquier otra licencia, no regala la propiedad: el equipo que lo creó sigue siendo el autor.
-- **Licencia por defecto**: MIT (simple y de máxima adopción). Cada proyecto puede elegir otra si lo prefiere. Incluso se puede cambiar las licencias después (*con ciertas condiciones*)
-- **Participar es voluntario**. Quien no quiera hacer público su proyecto usa un repositorio privado o simplemente no participa, sin que esto lo excluya de los beneficios que se expone en esta propuesta.
+- **La autoría no se transfiere.** Publicar con licencia open source otorga _permisos_ de uso como cualquier otra licencia, no regala la propiedad: el equipo que lo creó sigue siendo el autor.
+- **Licencia por defecto**: MIT (simple y de máxima adopción). Cada proyecto puede elegir otra si lo prefiere. Incluso se puede cambiar las licencias después (*con ciertas condiciones*)
+- **Participar es voluntario**. Quien no quiera hacer público su proyecto usa un repositorio privado o simplemente no participa, sin que esto lo excluya de los beneficios que se expone en esta propuesta.
+
+De igual manera, si se busca como tener mayor **protección legal**, ver el post de [Derechos de autor en el Open Source](/conceptos/copyright-and-opensource/) 
 
 Para el detalle de cada licencia, ver [Licencias](/conceptos/licencias/).
 
 ## Filosofía
 
-El objetivo **es la continuidad y la formación de los estudiantes**. Todo lo demás (*reducción de costos, software interno, prestigio, soberanía*) son **consecuencias**: suceden porque alumnos producen más proyectos y se forman mejor, no al revés.
+El objetivo **es la continuidad y la formación de los estudiantes**. Todo lo demás (*reducción de costos, software interno, prestigio, soberanía*) son **consecuencias**: suceden porque alumnos producen más proyectos y se forman mejor, no al revés.
 
 ### Misión
 
