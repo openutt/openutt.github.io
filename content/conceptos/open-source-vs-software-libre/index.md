@@ -70,7 +70,7 @@ Pues en estas areas importa:
 
 De hecho _Richard Stallman_ (principal referente del movimiento del Software libre) habló de esta diferencia:
 
-> _Los términos «software libre» y «código abierto» se refieren prácticamente al mismo conjunto de programas. Sin embargo, transmiten mensajes muy diferentes sobre esos programas, basados en valores distintos. El movimiento del software libre aboga por la libertad de los usuarios de la informática; es un movimiento en favor de la libertad y la justicia. Por el contrario, la idea del código abierto valora principalmente las ventajas prácticas y no defiende principios. Por eso no estamos de acuerdo con el código abierto y no utilizamos ese término. \[recuperado de_ [_Why Open Source Misses the Point of Free Software_](https://www.gnu.org/philosophy/open-source-misses-the-point.html)_\]_
+> _Los términos «software libre» y «código abierto» se refieren prácticamente al mismo conjunto de programas. Sin embargo, transmiten mensajes muy diferentes sobre esos programas, basados en valores distintos. El movimiento del software libre aboga por la libertad de los usuarios de la informática; es un movimiento en favor de la libertad y la justicia. Por el contrario, la idea del código abierto valora principalmente las ventajas prácticas y no defiende principios. Por eso no estamos de acuerdo con el código abierto y no utilizamos ese término. *[recuperado de [Why Open Source Misses the Point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.html)]*
 
 ## Resumen
 
