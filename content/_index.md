@@ -9,6 +9,6 @@ description = 'Proyectos, conocimiento y continuidad para la comunidad de TI de 
 
 El detalle completo — problema, justificación, filosofía (misión, visión, valores) y primer plan de acción — está en [la descripción de propuesta](/propuesta/)
 
-<img src="/images/LogoUTTBackground-largo.webp" alt="Logo OpenUTT" class="w-full h-auto rounded-md" />
+{{< wide-image src="images/LogoUTTBackground-largo.webp" alt="Logo OpenUTT" >}}
 
 ---

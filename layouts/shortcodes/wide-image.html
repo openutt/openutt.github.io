@@ -1,0 +1,4 @@
+{{- $image := resources.Get (.Get "src") -}}
+{{- with $image -}}
+<img src="{{ .RelPermalink }}" alt="{{ $.Get `alt` }}" class="w-full h-auto rounded-md" />
+{{- end -}}
