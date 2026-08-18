@@ -6,7 +6,7 @@ baseURL = "https://openutt.github.io/"
 defaultContentLanguage = "es"
 
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 100
 
 [pagination]
   pagerSize = 10
