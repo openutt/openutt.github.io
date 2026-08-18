@@ -18,7 +18,13 @@
 [[main]]
   name = "Propuesta"
   pageRef = "propuesta"
-  weight = 20
+  weight = 10
+
+
+[[main]]
+  name = "Conceptos"
+  pageRef = "conceptos"
+  weight = 11
 
 [[main]]
   name = "GitHub"

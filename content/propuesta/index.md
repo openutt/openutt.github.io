@@ -1,11 +1,11 @@
 +++
-date = '2026-08-17T21:43:44-07:00'
+date = '2026-08-16T21:43:44-07:00'
 draft = false
 title = 'Descripción de Propuesta'
 description = 'Proyectos, conocimiento y continuidad para la comunidad de TI de la UTT.'
 +++
 
-# Problema
+## Problema
 
 Los estudiantes de TI cada cuatrimestre realizan un proyecto integral en equipo, y esto es algo que nutre mucho a los estudiantes: no solo su educación técnica, sino también su desarrollo profesional al trabajar siempre en equipo, organizarse y ponerse de acuerdo.
 
@@ -17,14 +17,14 @@ Y, si no haces tu propio emprendimiento, regularmente esto es lo primero que se 
 
 Y no solo eso: trabajar con proyectos externos implica aprender **estándares** — cómo trabajan realmente los profesionales, y no "porque se me ocurrió" —, porque el mercado valora mucho que sepas trabajar como todos los demás y **entender proyectos y código ajeno**: significa menos tiempo de capacitación y una adopción más rápida en la operación.
 
-# Propuesta
+## Propuesta
 ![Logotipo OpenUTT](/images/OpenUTT-V.png)
 
-## Objetivo
+### Objetivo
 
 > **Que los proyectos cuatrimestrales de TI tengan continuidad entre generaciones, basándonos en las prácticas de la comunidad Open Source.**
 
-## Justificación
+### Justificación
 
 Con *OpenUTT* se busca que los proyectos cuatrimestrales, cuando se abandonen, **no se pierdan, sino que se preserven**: no solo el código, sino también la idea, la planeación y el diseño. De esta manera, otra generación podría:
 
@@ -49,7 +49,7 @@ De esta manera, podremos tener **un repositorio de proyectos** accesible a cualq
 
 Esta propuesta **no** busca que **el Open Source sea una *materia*, sino una *metodología***. 
 
-## ¿De quién son los proyectos?
+### ¿De quién son los proyectos?
 
 Una primera preocupación puede ser **lo legal**: *¿El proyecto a quien le pertenece?, ¿Le pertenece a UTT o al alumno/equipo?, Al ser open source, ¿renuncia a su autoría?*
 
@@ -58,29 +58,31 @@ Una primera preocupación puede ser **lo legal**: *¿El proyecto a quien le pert
 - **Licencia por defecto**: MIT (simple y de máxima adopción). Cada proyecto puede elegir otra si lo prefiere. Incluso se puede cambiar las licencias después (*con ciertas condiciones*)
 - **Participar es voluntario**. Quien no quiera hacer público su proyecto usa un repositorio privado o simplemente no participa, sin que esto lo excluya de los beneficios que se expone en esta propuesta.
 
-# Filosofía
+Para el detalle de cada licencia, ver [Licencias](/conceptos/licencias/).
+
+## Filosofía
 
 El objetivo **es la continuidad y la formación de los estudiantes**. Todo lo demás (*reducción de costos, software interno, prestigio, soberanía*) son **consecuencias**: suceden porque alumnos producen más proyectos y se forman mejor, no al revés.
 
-## Misión
+### Misión
 
 > Traer a la UTT el ecosistema del Open Source de manera estratégica, para que puedan tener una educación más integral con **conocimientos prácticos** del mundo profesional de TI, beneficiando así a los estudiantes, a los docentes y a la universidad.
 
-## Visión
+### Visión
 
 > Que los egresados de TI de la UTT salgan sabiendo **mantener, mejorar y crear software real** — con proyectos que sobreviven de una generación a la siguiente —, y que, por esa experiencia, **las empresas de la región reconozcan a la UTT como una referencia en formación tecnológica práctica**.
 
-## Valores
+### Valores
 
 - **Continuidad**: lo que se construye en la UTT se preserva, se guarda y se mejora.
 - **Colaboración**: se construye con otros y para otros, entre equipos y entre generaciones.
 - **Transparencia**: en el código, en las decisiones y en los procesos.
 - **Libertad**: participar de manera total, parcial o no participar, pero los beneficios son para todos.
 
-# Primer plan de acción
+## Primer plan de acción
 
 Ya explicada la propuesta, ¿qué sigue? Este es un **plan de acción** para iniciar la propuesta.
-## 1. Aval
+### 1. Aval
 
 Para arrancar **no se necesita presupuesto ni cambios al reglamento**; solo tres autorizaciones:
 
@@ -88,15 +90,15 @@ Para arrancar **no se necesita presupuesto ni cambios al reglamento**; solo tres
 2. **Permiso de poder usar el nombre** de ***UTT*** en la propuesta, logo y en una organización en [GitHub](https://github.com/openutt).
 3. **Permiso de poder hacer difusión** de esta propuesta en la universidad *(encuestas, exponer a grupos, anuncios en tableros, etc.)*.
 
-## 2. Comunidad
+### 2. Comunidad
 
 1. **Encuestas** para saber realmente qué piensa la carrera de la propuesta (alumnos y docentes), cuáles son las necesidades y cuántos interesados hay que estén de lleno.
 2. **Crear comunidad** de estudiantes, que sea accesible para todos sin ser formal (como Discord).
 3. **Recopilar proyectos** actuales, activos o abandonados, ya sea de estudiantes, egresados o docentes.
-4. **Poner en funcionamiento la organización de GitHub** con índice de proyectos y una página que dé visibilidad.
+4. **Poner en funcionamiento la organización de GitHub** con índice de proyectos y una página que dé visibilidad *(detalles en el [plan de repositorio](/propuesta/repositorio/))*.
 5. **Definir lineamientos mínimos**: como licencia por defecto (MIT), regla de nunca subir credenciales ni datos personales, y repositorios privados para quien no quiera publicar.
 
-## Entregables
+### Entregables
 
 Para concluir con este primer plan, se tendrá:
 

@@ -1,5 +1,5 @@
 +++
-date = '2026-08-17T21:43:44-07:00'
+date = '2026-08-16T21:43:44-07:00'
 draft = false
 title = 'Plan de repositorio'
 description = 'Plan para la gestión de repositorios de OpenUTT.'
