@@ -4,6 +4,7 @@ lastmod = '2026-08-16'
 draft = false
 title = 'Plan de repositorio'
 description = 'Plan para la gestión de repositorios de OpenUTT.'
+url = '/propuesta/repositorio/'
 +++
 > [OpenUTT Github Org](https://github.com/openutt)
 # Enfoque
