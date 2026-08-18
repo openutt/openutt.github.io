@@ -18,7 +18,7 @@ Y, si no haces tu propio emprendimiento, regularmente esto es lo primero que se 
 Y no solo eso: trabajar con proyectos externos implica aprender **estándares** — cómo trabajan realmente los profesionales, y no "porque se me ocurrió" —, porque el mercado valora mucho que sepas trabajar como todos los demás y **entender proyectos y código ajeno**: significa menos tiempo de capacitación y una adopción más rápida en la operación.
 
 # Propuesta
-![Logotipo OpenUTT](/OpenUTT-V.png)
+![Logotipo OpenUTT](/images/OpenUTT-V.png)
 
 ## Objetivo
 
