@@ -77,10 +77,10 @@ El objetivo **es la continuidad y la formación de los estudiantes**. Todo lo de
 
 ### Valores
 
-- **Continuidad**: lo que se construye en la UTT se preserva, se guarda y se mejora.
 - **Colaboración**: se construye con otros y para otros, entre equipos y entre generaciones.
 - **Transparencia**: en el código, en las decisiones y en los procesos.
 - **Libertad**: participar de manera total, parcial o no participar, pero los beneficios son para todos.
+- **Accesibilidad**: sin barreras de entrada ni burocracia. Repositorios públicos, información que se entiende y una comunidad a la que cualquiera se une sin requisitos.
 
 ## Primer plan de acción
 
