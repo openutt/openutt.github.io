@@ -1,8 +1,8 @@
-![Open UTT](assets/images/OpenUTT-V.png)
+![OpenUTT](assets/images/OpenUTT-V.png)
 
-[![Open UTT](https://img.shields.io/badge/Open%20UTT-Iniciativa-2b7de9)](https://openutt.github.io/)
+[![OpenUTT](https://img.shields.io/badge/OpenUTT-Iniciativa-2b7de9)](https://openutt.github.io/)
 
-Sitio web de **Open UTT**, una iniciativa para que los proyectos cuatrimestrales de TI de la UTT tengan **continuidad entre generaciones**, basándose en las prácticas de la comunidad Open Source: cuando un proyecto se abandona, no se pierde — se preserva (código, idea, planeación y diseño) para que otra generación lo retome, un docente lo use como ejemplo, o cualquiera lo estudie y aprenda de él.
+Sitio web de **OpenUTT**, una iniciativa para que los proyectos cuatrimestrales de TI de la UTT tengan **continuidad entre generaciones**, basándose en las prácticas de la comunidad Open Source: cuando un proyecto se abandona, no se pierde — se preserva (código, idea, planeación y diseño) para que otra generación lo retome, un docente lo use como ejemplo, o cualquiera lo estudie y aprenda de él.
 
 ## ¿Qué es esta web?
 

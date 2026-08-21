@@ -1,7 +1,7 @@
 +++
 date = '2026-08-17'
 draft = false
-title = 'Open UTT Iniciative'
+title = 'OpenUTT Iniciative'
 description = 'Proyectos, conocimiento y continuidad para la comunidad de TI de la UTT.'
 +++
 

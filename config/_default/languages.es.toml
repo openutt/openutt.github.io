@@ -3,8 +3,8 @@ label = "Español"
 direction = "ltr"
 weight = 1
 
-title = "Open UTT"
-copyright = ":copyright: Open UTT Iniciative y colaboradores"
+title = "OpenUTT"
+copyright = ":copyright: OpenUTT y colaboradores"
 
 [params]
   dateFormat = ":date_long"
