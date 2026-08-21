@@ -12,11 +12,13 @@ Los estudiantes de TI cada cuatrimestre realizan un proyecto integral en equipo,
 
 Sin embargo, existe un problema: cuando un cuatrimestre necesita que el proyecto tenga un enfoque distinto, que se cambie la tecnología o que el proyecto pasado no convenza para el objetivo de ese cuatrimestre, **el proyecto se queda abandonado y toca empezar de nuevo.**
 
-**¿Por qué esto es un problema?** Porque los estudiantes **aprenden a crear y planear proyectos, a innovar con una idea nueva**, pero les falta algo muy importante: **aprender a mantenerlos, mejorarlos y seguir innovando sobre lo que ya se tiene** — incluso en un proyecto en el que no estuvieron desde el principio.
+### **¿Por qué esto es un problema?** 
+
+Porque los estudiantes **aprenden a crear y planear proyectos, a innovar con una idea nueva**, pero les falta algo muy importante: **aprender a mantenerlos, mejorarlos y seguir innovando sobre lo que ya se tiene** — incluso en un proyecto en el que no estuvieron desde el principio.
 
 Y, si no haces tu propio emprendimiento, regularmente esto es lo primero que se hace en la vida profesional: **estudiar, mantener, mejorar e innovar en proyectos ya existentes**, con código que no escribiste y con ideas y flujos ya planteados.
 
-Y no solo eso: trabajar con proyectos externos implica aprender **estándares** — cómo trabajan realmente los profesionales, y no "porque se me ocurrió" —, porque el mercado valora mucho que sepas trabajar como todos los demás y **entender proyectos y código ajeno**: significa menos tiempo de capacitación y una adopción más rápida en la operación.
+Además, trabajar con proyectos externos implica aprender **estándares** — cómo trabajan realmente los profesionales, y no "porque se me ocurrió" —, porque el mercado valora mucho que sepas trabajar como todos los demás y **entender proyectos y código ajeno**: significa menos tiempo de capacitación y una adopción más rápida en la operación.
 
 ## Propuesta
 ![Logotipo OpenUTT](/images/OpenUTT-V.png)
@@ -42,9 +44,13 @@ Y esto no solo podría ocurrir entre generaciones, también **entre las áreas d
 
 Cada área trabaja como **proyecto separado**, sin necesidad de que los **equipos coincidan en el tiempo ni se coordinen** — pueden ser cuatrimestres distintos, o incluso retomar un proyecto de cuatrimestres anteriores. Así, un proyecto de software se convierte en un **producto completo**, y cada área practica lo suyo **sobre algo real**.
 
-*¿Y cómo lograremos esto?* Pues **no necesitamos inventar una estrategia desde cero**, porque ya existe una: la ***[Open Source Initiative](/conceptos/open-source-initiative)***. Esta comunidad existe desde 1998, con el objetivo de establecer estándares, educar y defender el código abierto y sus beneficios. *¿Quiénes son parte de este ecosistema?* **Todos**: desde Google, Microsoft, Meta, OpenAI y el MIT, hasta la Unión Europea y personas que hacen proyectos abiertos por hobby.
+### *¿Y cómo lograremos esto?*
 
-Con este gran ecosistema — respaldado por millones de personas, organizaciones públicas y privadas, y hasta gobiernos —, lo que necesitamos es **traer ese ecosistema dentro de la universidad**, combinándolo con nuestro sistema **70% práctico y 30% teórico**.
+Pues **no necesitamos inventar una estrategia desde cero**, porque ya existe una: la ***[Open Source Initiative](/conceptos/open-source-initiative)***. Esta comunidad existe desde 1998, con el objetivo de establecer estándares, educar y defender el código abierto y sus beneficios. 
+
+*¿Quiénes son parte de este ecosistema?* **Todos**: desde Google, Microsoft, Meta, OpenAI, el MIT, la Unión Europea, startups y personas que hacen proyectos abiertos por hobby.
+
+Con este gran ecosistema — respaldado por millones de personas, organizaciones públicas y privadas, y hasta gobiernos —, lo que necesitamos es **traer esa metodología dentro de la universidad**, combinándolo con nuestro sistema **70% práctico y 30% teórico**.
 
 De esta manera, podremos tener **un repositorio de proyectos** accesible a cualquiera — estudiantes, docentes, empresas o personas externas —, **y una comunidad** de la carrera de TI que lo promueva y aporte a este ecosistema.
 
