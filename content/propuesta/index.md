@@ -56,7 +56,7 @@ Una primera preocupación puede ser **lo legal**: *¿El proyecto a quien le pert
 
 - **Quien escribe el código es el autor**. Es la regla legal, incluso aunque no haya alguna licencia o registro ante autoridades.
 - **La autoría no se transfiere.** Publicar con licencia open source otorga _permisos_ de uso como cualquier otra licencia, no regala la propiedad: el equipo que lo creó sigue siendo el autor.
-- **Licencia por defecto**: MIT (simple y de máxima adopción). Cada proyecto puede elegir otra si lo prefiere. Incluso se puede cambiar las licencias después (*con ciertas condiciones*)
+- **Licencia por defecto**: MIT (simple y de máxima adopción). Cada proyecto puede elegir otra si lo prefiere. Incluso se puede cambiar las licencias después *(con ciertas condiciones)*
 - **Publicar o no lo decide el equipo autor**. La iniciativa no publica nada por ellos: si el equipo no quiere hacer el proyecto público, no se hace público.
 
 De igual manera, si se busca como tener mayor **protección legal**, ver el post de [Derechos de autor en el Open Source](/conceptos/copyright-and-opensource/) 
