@@ -96,7 +96,7 @@ Ya explicada la propuesta, ¿qué sigue? Este es un **plan de acción** para ini
 Para arrancar **no se necesita presupuesto ni cambios al reglamento**; solo tres autorizaciones:
 
 1. **Autorización y respaldo** por la carrera de ser una propuesta aprobada y no solo una "idea de un estudiante".
-2. **Permiso de poder usar el nombre** de ***UTT*** en la propuesta, logo y en una organización en [GitHub](https://github.com/openutt).
+2. **Permiso de poder usar el nombre** de ***UTT*** en la propuesta, logo y en una [organización en GitHub](https://github.com/openutt).
 3. **Permiso de poder hacer difusión** de esta propuesta en la universidad *(encuestas, exponer a grupos, anuncios en tableros, etc.)*.
 
 ### 2. Comunidad
