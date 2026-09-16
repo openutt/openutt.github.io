@@ -43,6 +43,15 @@
         target = "_blank"
 
 [[main]]
+    name = "Discord"
+    url = "https://discord.gg/A92Gc7jBC2"
+    weight = 26
+    [main.params]
+        icon = "discord"
+        showName = false
+        target = "_blank"
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
