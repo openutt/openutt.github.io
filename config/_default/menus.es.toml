@@ -27,13 +27,29 @@
   weight = 11
 
 [[main]]
-  name = "GitHub"
-  url = "https://github.com/openutt"
-  weight = 20
+  name = "Roadmap"
+  url = "https://kan.neyzt.org/openutt/iniciativa"
+  weight = 21
   [main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
+      target = "_blank"
+
+[[main]]
+    name = "GitHub"
+    url = "https://github.com/openutt"
+    weight = 25
+    [main.params]
+        icon = "github"
+        showName = false
+        target = "_blank"
+
+[[main]]
+    name = "Discord"
+    url = "https://discord.gg/A92Gc7jBC2"
+    weight = 26
+    [main.params]
+        icon = "discord"
+        showName = false
+        target = "_blank"
 
 [[main]]
   identifier = "search"
