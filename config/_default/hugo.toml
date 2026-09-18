@@ -25,3 +25,9 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
+
+[taxonomies]
+    tag = "tags"
+    estado = "estado"
+    cuatrimestre = "cuatrimestre"
+    tecnologia = "tecnologias"
