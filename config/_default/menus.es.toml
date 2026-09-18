@@ -22,9 +22,15 @@
 
 
 [[main]]
+name = "Proyectos"
+pageRef = "proyectos"
+weight = 11
+
+
+[[main]]
   name = "Conceptos"
   pageRef = "conceptos"
-  weight = 11
+  weight = 12
 
 [[main]]
   name = "Roadmap"
