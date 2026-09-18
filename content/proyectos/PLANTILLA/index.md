@@ -8,12 +8,13 @@ description = "Qué hace el proyecto y con qué (ej. App web para X con PHP y Ma
 date = "2026-09-17"
 lastmod = '2026-09-17'
 draft = true
+showTableOfContents = false
 # estado: OBLIGATORIO, sin valor por defecto. Uno de: activo | abandonado | completado
 estado = "activo"
 # cuatrimestre en que se desarrolló (ej. "8")
 cuatrimestre = "8"
 # autores: nombres como aparecerán en el índice
-autores = ["Nombre A", "Nombre B"]
+autores = ["Jhon Due", "Jane Doe", "Linus Torvalds", "Midu Dev"]
 # tecnologías: stack concreto, en minúsculas y consistente (ej. "svelte", "fastapi")
 tecnologias = ["php", "mariadb"]
 # repo: OBLIGATORIO, enlace al repositorio
@@ -35,7 +36,7 @@ Para el listado, hay 3 tipos de imagenes. Puede ser cualquier formato, pero debe
 Estas imagenes son opcionales, pero recomendadas para que sus proyectos se vean mucho mejor.
 -->
 
-# Nombre del proyecto
+{{< proyecto-meta >}}
 
 Descripción breve del proyecto: qué problema resuelve, para quién, y en qué estado está. Es lo que se ve en la tarjeta del índice.
 

@@ -1,0 +1,34 @@
+/* ---- Ficha de proyecto (shortcode {{< proyecto-meta >}}) ----
+   Todo el layout usa clases nativas de Congo. Aquí solo vive lo que el
+   tema no puede expresar: el color semántico del badge de estado. */
+
+.pm-badge--activo {
+  color: #047857;
+  border-color: #34d399;
+}
+html.dark .pm-badge--activo {
+  color: #6ee7b7;
+  border-color: #10b981;
+}
+.pm-badge--completado {
+  color: #0369a1;
+  border-color: #38bdf8;
+}
+html.dark .pm-badge--completado {
+  color: #7dd3fc;
+  border-color: #0ea5e9;
+}
+.pm-badge--abandonado {
+  color: #525252;
+  border-color: #a3a3a3;
+}
+html.dark .pm-badge--abandonado {
+  color: #d4d4d4;
+  border-color: #737373;
+}
+
+/* Icono dentro de los enlaces Código/Demo: quita el padding del span .icon */
+.pm-link .icon {
+  padding: 0;
+  margin-right: 0.25rem;
+}
