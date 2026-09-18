@@ -11,8 +11,8 @@ draft = true
 showTableOfContents = false
 # estado: OBLIGATORIO, sin valor por defecto. Uno de: activo | abandonado | completado
 estado = "activo"
-# cuatrimestre en que se desarrolló (ej. "8")
-cuatrimestre = "8"
+# cuatrimestre en que se desarrolló (ej. "4to", "8vo")
+cuatrimestre = "8vo"
 # autores: nombres como aparecerán en el índice
 autores = ["Jhon Due", "Jane Doe", "Linus Torvalds", "Midu Dev"]
 # tecnologías: stack concreto, en minúsculas y consistente (ej. "svelte", "fastapi")
