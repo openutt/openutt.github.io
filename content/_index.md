@@ -14,3 +14,4 @@ El detalle completo — problema, justificación, filosofía (misión, visión, 
 ---
 
 {{< pinned path="propuesta" title="Propuesta">}}
+{{< pinned path="proyectos" title="Mira lo que desarrollan los estudiantes!">}}

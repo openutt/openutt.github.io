@@ -20,7 +20,7 @@ enableImageWebp = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   logo = "images/OpenUTT-V.png"
   # logoDark = "img/dark-logo.jpg"
   showTitle = false
@@ -40,7 +40,7 @@ fingerprintAlgorithm = "sha256"
   showDate = true
   showDateUpdated = true
   showAuthor = false
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = true
   editURL = "https://github.com/openutt/openutt.github.io/tree/main/content/"
@@ -58,8 +58,8 @@ fingerprintAlgorithm = "sha256"
 [list]
   showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = false
-  showTaxonomies = false
+  showTableOfContents = true
+  showTaxonomies = true
   groupByYear = false
   groupByMonth = true
   paginationWidth = 1

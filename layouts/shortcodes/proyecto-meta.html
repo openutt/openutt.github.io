@@ -1,0 +1,38 @@
+{{- $estado := .Page.Params.estado | default "" -}}
+{{- $cuatrimestre := .Page.Params.cuatrimestre | default slice -}}
+{{- $tecnologias := .Page.Params.tecnologias | default slice -}}
+{{- $autores := .Page.Params.autores | default slice -}}
+{{- $repo := .Page.Params.repo | default "" -}}
+{{- $demo := .Page.Params.demo | default "" -}}
+{{- $sep := `<span class="px-2 text-primary-500">&middot;</span>` | safeHTML -}}
+<div class="not-prose mb-6 text-sm text-neutral-500 dark:text-neutral-400">
+  <div class="flex flex-wrap items-center">
+    {{- with $estado -}}
+      <span class="pm-badge--{{ . | urlize }} rounded-md border px-1 py-[1px] text-xs">{{ . | title }}</span>
+    {{- end -}}
+    {{- with $cuatrimestre -}}
+      {{ $sep }} Desarrollado en {{ delimit . ", " }}
+    {{- end -}}
+    {{- with $repo -}}
+      {{ $sep }}<a class="pm-link text-primary-600 underline decoration-primary-500 hover:decoration-2 dark:text-primary-400" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "github" }}Código</a>
+    {{- end -}}
+    {{- with $demo -}}
+      {{ $sep }}<a class="pm-link text-primary-600 underline decoration-primary-500 hover:decoration-2 dark:text-primary-400" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "globe" }}Demo</a>
+    {{- end -}}
+  </div>
+  <div class="mt-1 flex flex-wrap">
+    {{- range $tecnologias -}}
+      {{- $label := . -}}
+      {{- with site.GetPage (printf "/tecnologias/%s" ($label | urlize)) -}}
+        <a class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] text-xs hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400" href="{{ .Permalink }}">{{ $label }}</a>
+      {{- else -}}
+        <span class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] text-xs dark:border-neutral-600">{{ $label }}</span>
+      {{- end -}}
+    {{- end -}}
+  </div>
+  <div class="mt-1 flex flex-wrap">
+    {{- with $autores -}}
+      {{ partial "icon.html" "users" }} {{ $sep }} {{ delimit . " | " }}
+    {{- end -}}
+  </div>
+</div>
