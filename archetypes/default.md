@@ -1,6 +1,6 @@
 +++
-date = '{{ .Date.Format "2006-01-02" }}'
-lastmod = '{{ .Lastmod.Format "2006-01-02" }}'
+date = '{{ now.Format "2006-01-02" }}'
+lastmod = '{{ now.Format "2006-01-02" }}'
 draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 description = ''
