@@ -30,7 +30,7 @@ tags = ["web"]
 Para el listado, hay 3 tipos de imagenes. Puede ser cualquier formato, pero deben tener los siguientes nombres :
 1. `thumb`: imagen que se verá en el listado y en la tarjeta del proyecto
 2. `cover`: imagen que se verá en la página de detalles del proyecto
-3. `banner`: imagen que se verá en ambas, tanto en el listado como en la página de detalles. Sirve cuando quieres usar la misma imagen en ambos lados.
+3. `feature`: imagen que se verá en ambas, tanto en el listado como en la página de detalles. Sirve cuando quieres usar la misma imagen en ambos lados.
 4. Cualquier otra imagen pueden simplemente referenciarla mientras describen su proyecto
 
 Estas imagenes son opcionales, pero recomendadas para que sus proyectos se vean mucho mejor.
