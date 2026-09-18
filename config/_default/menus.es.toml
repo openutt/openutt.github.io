@@ -22,10 +22,9 @@
 
 
 [[main]]
-name = "Proyectos"
-pageRef = "proyectos"
-weight = 11
-
+    name = "Proyectos"
+    pageRef = "proyectos"
+    weight = 11
 
 [[main]]
   name = "Conceptos"
@@ -67,7 +66,26 @@ weight = 11
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-# [[footer]]
-#   name = "GitHub"
-#   url = "https://github.com/openutt"
-#   weight = 10
+[[footer]]
+  name = "Mira los repositorios"
+  url = "https://github.com/openutt"
+  weight = 10
+  [footer.params]
+      icon = "github"
+      target = "_blank"
+
+[[footer]]
+    name = "Unete a la comunidad"
+    url = "https://discord.gg/A92Gc7jBC2"
+    weight = 12
+    [footer.params]
+        icon = "discord"
+        target = "_blank"
+
+[[footer]]
+    name = "Mira el estado de la iniciativa"
+    url = "https://kan.neyzt.org/openutt/iniciativa"
+    weight = 13
+    [footer.params]
+        icon = "list"
+        target = "_blank"
