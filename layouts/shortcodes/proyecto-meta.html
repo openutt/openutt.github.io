@@ -1,5 +1,5 @@
 {{- $estado := .Page.Params.estado | default "" -}}
-{{- $cuatrimestre := .Page.Params.cuatrimestre | default "" -}}
+{{- $cuatrimestre := .Page.Params.cuatrimestre | default slice -}}
 {{- $tecnologias := .Page.Params.tecnologias | default slice -}}
 {{- $autores := .Page.Params.autores | default slice -}}
 {{- $repo := .Page.Params.repo | default "" -}}
@@ -11,7 +11,7 @@
       <span class="pm-badge--{{ . | urlize }} rounded-md border px-1 py-[1px] text-xs">{{ . | title }}</span>
     {{- end -}}
     {{- with $cuatrimestre -}}
-      {{ $sep }}{{ . }} Cuatrimestre
+      {{ $sep }} Desarrollado en {{ delimit . ", " }}
     {{- end -}}
     {{- with $repo -}}
       {{ $sep }}<a class="pm-link text-primary-600 underline decoration-primary-500 hover:decoration-2 dark:text-primary-400" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "github" }}Código</a>
