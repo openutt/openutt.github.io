@@ -14,7 +14,8 @@ Gracias por sumar tu proyecto al índice de OpenUTT :D
 - **Demo (si aplica):**
 
 ## Checklist de la entrada
-
+<!-- Pon una x en medio para marcarlas como completado
+- [x] -->
 - [ ] El título de este PR empieza con `proyectos:`
 - [ ] Copié la entrada desde [PLANTILLA](https://github.com/openutt/openutt.github.io/tree/main/content/proyectos/PLANTILLA) y llené todos los campos obligatorios (estado, autores, cuatrimestre, tecnologías, repo)
 - [ ] `draft = false`
