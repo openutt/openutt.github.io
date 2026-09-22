@@ -1,77 +1,88 @@
 ![OpenUTT](assets/images/OpenUTT-V.png)
+[![OpenUTT](https://img.shields.io/badge/OpenUTT-Iniciativa-2b7de9)](https://openutt.github.io/) [![Licencia](https://img.shields.io/badge/licencia-MIT-2ea44f)](LICENSE)
 
-[![OpenUTT](https://img.shields.io/badge/OpenUTT-Iniciativa-2b7de9)](https://openutt.github.io/)
+**OpenUTT** es una iniciativa estudiantil de la UTT para que los proyectos cuatrimestrales de TI **tengan continuidad entre generaciones**: cuando un proyecto se abandona, no se pierde — se preserva (código, idea, planeación y diseño) para que otra generación lo retome, un docente lo use como ejemplo, o cualquiera lo estudie y aprenda de él.
+Este repositorio es su **sitio web**: el portal donde se publica la propuesta, la investigación sobre open source y el **índice de proyectos** de estudiantes.
 
-Sitio web de **OpenUTT**, una iniciativa para que los proyectos cuatrimestrales de TI de la UTT tengan **continuidad entre generaciones**, basándose en las prácticas de la comunidad Open Source: cuando un proyecto se abandona, no se pierde — se preserva (código, idea, planeación y diseño) para que otra generación lo retome, un docente lo use como ejemplo, o cualquiera lo estudie y aprenda de él.
+## La iniciativa
 
-## ¿Qué es esta web?
+- **El problema**: cada cuatrimestre se desarrollan proyectos de TI valiosos que, al terminar el curso, se abandonan y se pierden. La siguiente generación empieza de cero.
+- **La metodología**: adoptar las prácticas de la comunidad open source (README, licencias, issues, pull requests) como forma de trabajo — no como una materia nueva, sino como la manera de hacer que los proyectos sobrevivan al cuatrimestre.
+- **El alcance**: los proyectos de estudiantes **no se mueven de sus cuentas**; el índice los enlaza y les da visibilidad. Los proyectos que la UTT use de verdad, o que tengan más de un mantenedor activo, pueden pasar a la [organización OpenUTT](https://github.com/openutt). El criterio completo está en el [Plan de repositorio](https://openutt.github.io/propuesta/repositorio/).
+- **La autoría se respeta**: quien escribe el código es su autor, y publicarlo no regala la propiedad. Cada proyecto elige su licencia; la estándar de la iniciativa es **MIT**.
+- **Participar es voluntario**: nadie está obligado, y no participar no excluye de los beneficios.
+La propuesta completa (problema, objetivo y justificación) está en **[openutt.github.io/propuesta](https://openutt.github.io/propuesta/)**.
 
-Esta página sirve dos propósitos:
+## Qué hay en el sitio
 
-1. **Describir la iniciativa y publicar posts sobre ella.** Aquí se documenta la propuesta completa (problema, objetivo, justificación y filosofía) en la sección [Propuesta](content/propuesta/), y se publican los conceptos investigados sobre Open Source y software libre en [Conceptos](content/conceptos/).
+| Sección | Qué es |
+| --- | --- |
+| [Propuesta](https://openutt.github.io/propuesta/) | La propuesta formal de la iniciativa |
+| [Conceptos](https://openutt.github.io/conceptos/) | Investigación publicada: open source vs. software libre, licencias, OSI… |
+| [Proyectos](https://openutt.github.io/proyectos/) | El índice de proyectos estudiantiles y su estado (*activo / abandonado / completado*) |
+| [Agregar un proyecto](https://openutt.github.io/agregar-proyecto/) | El proceso para sumar tu proyecto al índice |
+| [Plan de repositorio](https://openutt.github.io/propuesta/repositorio/) | Cómo se organizan los repositorios: organización, índice y portal |
 
-2. **Índice de proyectos estudiantiles (próximamente).** En el futuro, la web actuará como **catálogo público** de los proyectos que equipos y estudiantes quieran sumar a la iniciativa: se enlazarán a sus repositorios **sin moverlos** de sus cuentas, dándoles visibilidad y preservando los proyectos abandonados como referencia para reutilizarlos. El plan está detallado en [Plan de repositorio](content/propuesta/repositorio.md).
+## Sumar tu proyecto
 
-## Arquitectura
+¿Tienes un proyecto cuatrimestral (terminado, en curso o abandonado)? El índice es abierto y tu código se queda donde está: solo se enlaza.
+1. Sigue el proceso en **[Agregar un proyecto](https://openutt.github.io/agregar-proyecto/)** — es un pull request a este repositorio.
+2. Tu repositorio debe cumplir el mínimo: **README** (qué es y cómo levantarlo), **LICENSE** definida, **`.gitignore`** sin claves y **sin secretos en el historial**.
 
-La web es un **sitio estático** construido con tres piezas:
+## Contribuir al sitio
+
+¿Encontraste un error, quieres mejorar un texto o tocar el diseño? Lee **[CONTRIBUTING.md](CONTRIBUTING.md)** (requisitos, flujo de PR y convenciones), y para entradas del índice basta con seguir [Agregar un proyecto](https://openutt.github.io/agregar-proyecto/).
+
+## El sitio por dentro
+
+Sitio estático: **Hugo** (extended) + tema **Congo v2** como módulo de Go, construido por **GitHub Actions** y publicado en **GitHub Pages**.
 
 ```mermaid
 graph TD
-    subgraph Contenido
-        direction LR
-        Content["`Contenido (*Markdown*)<br>*content/* `"] --> Hugo["`Hugo + Tema (*Congo*)`"]
-    end
-    subgraph Build and Deploy
-        direction LR
-        Hugo --> GitHubActions[GitHub Actions]
-        GitHubActions --> GitHubPages["`GitHub Pages (*openutt.github.io*)`"]
-    end
+    Content["Contenido (*Markdown*) — content/"] --> Hugo["Hugo + Congo v2"]
+    Hugo --> Actions["GitHub Actions — hugo --minify"]
+    Actions --> Pages["GitHub Pages — openutt.github.io"]
 ```
 
-| Componente | Rol |
-|---|---|
-| **[Hugo](https://gohugo.io)** | Generador de sitios estáticos. Convierte el contenido escrito en Markdown (`content/`) en archivos HTML, CSS y JS listos para publicar. Se requiere la versión **extended** (ver `config/_default/config.toml`). |
-| **[Congo v2](https://jpanther.github.io/congo/)** | Tema de Hugo cargado como módulo (`github.com/jpanther/congo/v2 v2.14.0`, ver `go.mod`). Aporta el diseño, la navegación y las funciones del sitio. Configuración en `config/_default/`. |
-| **[GitHub Pages](https://docs.github.com/es/pages)** | Hosting gratuito donde se publica el sitio en `https://openutt.github.io/`. |
-| **GitHub Actions** | CI/CD. El workflow [`.github/workflows/hugo.yaml`](.github/workflows/hugo.yaml) se ejecuta al hacer push a `main`: instala Hugo, ejecuta `hugo --minify` y publica la carpeta `public/` en la rama `gh-pages`. |
+| Pieza | Rol |
+| --- | --- |
+| [Hugo](https://gohugo.io) (extended) | Generador de sitio estático: convierte `content/` (Markdown) en HTML, CSS y JS |
+| [Congo v2](https://jpanther.github.io/congo/) | Tema del sitio, cargado como módulo Go (`go.mod`) |
+| GitHub Actions | CI/CD: en cada push a `main` corre [`.github/workflows/hugo.yaml`](.github/workflows/hugo.yaml) |
+| GitHub Pages | Hosting gratuito: publica el resultado en `https://openutt.github.io/` |
 
-Documentación de referencia:
+<details>
+<summary>¿Qué es Hugo y por qué un sitio estático?</summary>
+Hugo es un generador de sitios estáticos escrito en Go y de código abierto. Procesa el contenido **una sola vez**: toma archivos Markdown, les aplica una plantilla (el tema) y produce HTML puro — rápido de cargar y barato de mantener, sin base de datos ni servidor. El contenido vive como archivos versionados con Git, editables por cualquiera, y el despliegue es automático y sin costo.
+Documentación: [Hugo](https://gohugo.io/getting-started/) · [Congo](https://jpanther.github.io/congo/docs/getting-started/) · [Congo + GitHub Pages](https://jpanther.github.io/congo/docs/hosting-deployment/#github-pages)
+</details>
 
-- [Documentación de Hugo](https://gohugo.io/getting-started//)
-- [Guía de inicio de Congo](https://jpanther.github.io/congo/docs/getting-started/)
-- [Configuración de Congo](https://jpanther.github.io/congo/docs/configuration/)
-- [Documentación de GitHub + Hugo](https://jpanther.github.io/congo/docs/hosting-deployment/#github-pages)
+### Desarrollo local
 
-## ¿Qué es Hugo?
-
-[Hugo](https://gohugo.io) es un **generador de sitios web estáticos** escrito en Go y de **código abierto**. En lugar de manejar contenido y pedir páginas a una base de datos en cada visita, Hugo procesa todo **una sola vez**: toma archivos de texto plano (normalmente en Markdown), les aplica una plantilla (tema) y produce un sitio de HTML puro, muy **rápido de cargar** y **barato de mantener**.
-
-Sus ventajas principales:
-
-- **Rápido:** genera sitios completos en milisegundos, incluso con miles de páginas.
-- **Sin base de datos ni servidor:** el resultado son archivos estáticos que cualquier hosting puede servir.
-- **Control de versiones:** el contenido vive como archivos Markdown, fácil de versionar con Git y de editar en cualquier editor.
-- **Temas y comunidad:** un gran ecosistema de temas (como Congo) y plantillas para empezar en minutos.
-
-Por eso es ideal para esta iniciativa: el contenido lo escribe cualquiera con Markdown, se versiona en el propio repositorio de GitHub y el despliegue es automático y sin costo.
-
-## Estructura del repositorio
-
-```
-config/_default/      Configuración del sitio y del tema
-content/              Contenido en Markdown (home, propuesta, conceptos)
-layouts/              Shortcodes y plantillas propias
-static/               Archivos estáticos (imágenes, logos)
-.github/workflows/    CI/CD para construir y desplegar
-public/               Salida generada por Hugo (no se edita a mano)
+Requisitos: [Hugo **extended** ≥ 0.158](https://gohugo.io/installation/) y [Go](https://go.dev/) (el tema se carga como módulo).
+```bash
+hugo server          # dev en http://localhost:1313 con recarga en vivo
+hugo --gc --minify   # build limpio antes de publicar (el CI corre hugo --minify)
 ```
 
-## Publicar cambios
+### Estructura del repositorio
 
-1. **Desarrollo local:** `hugo server` — sirve el sitio en `http://localhost:1313` con recarga en vivo.
-2. **Publicar:** haz push a la rama `main`. GitHub Actions construye el sitio y despliega en GitHub Pages automáticamente.
+```
+config/_default/        Configuración del sitio y del tema (hugo.toml, params.toml…)
+content/                Contenido en Markdown
+├── propuesta/          La propuesta y el plan de repositorio (en /propuesta/repositorio/)
+├── conceptos/          Investigación publicada
+├── proyectos/          Índice: una carpeta por proyecto (index.md + imágenes) y PLANTILLA/
+├── agregar-proyecto/   Página de proceso
+└── _index.md           Portada
+layouts/shortcodes/     Shortcodes propios (pinned, wide-image, proyecto-meta)
+assets/                 CSS e imágenes del sitio
+static/                 Favicons, manifiesto y archivos estáticos
+archetypes/             Plantillas para `hugo new`
+.github/                Workflow de deploy y plantillas de pull request
+public/, resources/     Generados por Hugo (ignorados por Git: no se editan)
+```
 
 ## Licencia
 
-[MIT](LICENSE)
+[MIT](LICENSE). Cada proyecto del índice puede elegir su propia licencia.
