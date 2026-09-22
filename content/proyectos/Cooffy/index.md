@@ -5,13 +5,13 @@ date = "2026-09-17"
 lastmod = '2026-09-18'
 draft = false
 showTableOfContents = false
-estado = "activo"
+estado = "abandonado"
 cuatrimestre = ["7vo", "8no"]
 autores = ["Genesis Brito", "Andres Cuevas", "Jabes Llamas", "Luis Palomares", "Neyzer Toledo"]
 tecnologias = ["react", "python", "django", "docker", "postgresql", "typescript", "nextjs", "tailwind", "wordpress"]
 repo = "https://github.com/CooffyUTT/cooffy"
 demo = "https://cooffy.neyzt.org/"
-tags = ["web", "fullstack", "ci-cd"]
+tags = ["proyecto"]
 +++
 
 {{< proyecto-meta >}}
