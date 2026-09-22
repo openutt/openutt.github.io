@@ -22,7 +22,7 @@ repo = "https://github.com/usuario/proyecto"
 # demo: opcional, quita la línea si no hay demo o landing page
 demo = "https://demo.ejemplo.com"
 # tags: opcionales, categorías amplias: AI, web, móvil, PWA…
-tags = ["web"]
+tags = ["proyecto"]
 +++
 <!--
 # IMAGENES
