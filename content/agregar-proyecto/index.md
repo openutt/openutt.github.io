@@ -34,7 +34,7 @@ El estado es obligatorio y lo eliges **tú**. Un proyecto ya abandonado también
 3. Sube tus cambios y abre un Pull Request a [openutt/openutt.github.io](https://github.com/openutt/openutt.github.io) con título `proyectos: <nombre>`.
 ![PR de nuevo proyecto](pr-nuevo-proyecto.png "Haciendo un PR de nuevo proyecto")
 
-4. Revisamos que el repo enlazado cumpla los requisitos mínimos (abajo) y lo mergeamos.
+4. Revisamos que el repo enlazado cumpla los requisitos mínimos y lo mergeamos.
 5. Al mergear, el sitio se regenera y el proyecto aparece en el índice.
 
 {{<mermaid>}}

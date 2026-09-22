@@ -15,13 +15,13 @@ estado = "activo"
 cuatrimestre = "8vo"
 # autores: nombres como aparecerán en el índice
 autores = ["Jhon Due", "Jane Doe", "Linus Torvalds", "Midu Dev"]
-# tecnologías: stack concreto, en minúsculas y consistente (ej. "svelte", "fastapi")
+# tecnologías: stack concreto, en minúsculas y consistente (ej. "mariadb", "php")
 tecnologias = ["php", "mariadb"]
 # repo: OBLIGATORIO, enlace al repositorio
 repo = "https://github.com/usuario/proyecto"
 # demo: opcional, quita la línea si no hay demo o landing page
 demo = "https://demo.ejemplo.com"
-# tags: opcionales, categorías amplias: AI, web, móvil, PWA…
+# tags: default como "proyecto", otras opciones son "actividad", "blog" u otras no necesarias para proyectos. 
 tags = ["proyecto"]
 +++
 <!--
